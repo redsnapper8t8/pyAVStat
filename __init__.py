@@ -6,7 +6,7 @@ from subprocess import Popen,PIPE, call
 class MetaData:
 
     """A class to return a list of tuples with metadata keys and 
-    values for a given video path. Uses mplayer tp probe video. 
+    values for a given video path. Uses mplayer to probe video. 
     """
     
     def __init__(self, path):
